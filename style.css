@@ -1,0 +1,62 @@
+* {
+  font-size: large;
+}
+
+body{
+  background-image: url(https://wallpaperaccess.com/full/2248063.jpg);
+  background-color:#ff7400 ;
+}
+
+.forma {
+  background-color:	 #ff4d00;
+  box-shadow: 6px 4px 1px #ff0000;
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  align-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 80px 80px 80px;
+  top: 50%;
+  left: 50%;
+  margin: -175px 0 0 -175px;
+  border-radius: 20px;
+}
+.enviar{
+  background-color: #ff0000;
+  border-color:#ff0000;
+}
+h1{
+  color: 	#000000;
+  font-size:xx-large;
+  font-style: oblique;
+  font-weight:bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.campo {
+  background-color:	#ff7400;
+  border-color: #ff7400;
+  box-shadow:6px 4px 1px #e70303;;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  transition: background-color,border-color 1s;
+}
+
+.enviar {
+  width: 150px;
+  transform: translateX(100px);
+  border-radius: 8px;
+}
+
+.campo:hover {
+
+  cursor: pointer;
+  background-color:#eb6c05;
+  border-color: #eb6c05;
+}
+::placeholder{
+  color:rgba(255, 38, 0, 0.616);
+}
